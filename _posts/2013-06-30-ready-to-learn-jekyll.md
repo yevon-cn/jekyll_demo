@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Ready to learn jekyll
-name: him
 ---
-<h2>{{ page.title }} :   {{ page.name }}</h2>
+<h2>{{ page.title }}</h2>
 <p>{{ page.date | date_to_string }}</p>
 <h3>学习资源</h3>
 
