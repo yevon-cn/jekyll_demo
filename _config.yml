@@ -1,2 +1,4 @@
 baseurl: /jekyll_demo
 server: true
+markdown: rdiscount
+pygments: true
