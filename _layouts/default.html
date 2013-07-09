@@ -3,12 +3,22 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>{{ page.title }}</title>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8fbdcb62503e13823be5e45ea950ec61";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 </head>
 <body>
 	{{ content }}
+	<!--
 	<script type="text/javascript">
 		var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 		document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8fbdcb62503e13823be5e45ea950ec61' type='text/javascript'%3E%3C/script%3E"));
-	</script>
+	</script>-->
 </body>
 </html>
